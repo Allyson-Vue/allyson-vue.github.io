@@ -3,3 +3,40 @@ Name: Allyson Kaab-Hli Vue
 Date: 12/7/2023
 Filename: styles.css
 */
+
+
+html {
+    background: pink;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#Main_Page {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 10px;
+    max-width: 960px;
+}
+
+#Student_Info {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+#AllysonPic {
+    border-radius: 250px;
+}
