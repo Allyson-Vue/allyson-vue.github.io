@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Allyson Vue</title>
     <!--
         Name: Allyson Kaab-Hli Vue
@@ -12,9 +12,11 @@
      <link href="styles.css" rel="stylesheet">
 </head>
 <body>
+    <!--Header-->
     <header><h1>Allyson Vue</h1>
     <h2>|| College Sophomore || Class of 2024 ||</h2></header>
 <div id="Main_Page">
+    <!--Section 1-->
     <h3>Info:</h3>        
     <section id="Top_Sect">
     <img id="AllysonPic" src="allysonvue.JPG" alt="Allyson Vue"> 
@@ -52,11 +54,13 @@
                 <li>Indie game dev</li>
             </ul>
         </div>
+        </section>
     </div>
     </section>   
-    </section>
+    <!--Section 2-->
     <h3>Classes:</h3>
     <section id="Classes">
+
         <table id="Year_One">
             <tr>
                 <th>Fall 2022:</th>
@@ -120,23 +124,24 @@
             </ul>
         </div>
         </div>
+    <!--Section 3-->
     <section id="Inquiry">
         <h3>Questions:</h3>
         <form method="get" action="thankyou.html">
             <div id="Inq_Name">
             <label for="Fname">First Name:</label>
-            <input type="text" id="Fname">
+            <input type="text" id="Fname" required>
             <label for="Lname">Last Name:</label>
-            <input type="text" id="Lname">
+            <input type="text" id="Lname" required>
             </div>
             <label for="Inq_Email">Email:</label>
-            <input type="email" id="Inq_Email">
+            <input type="email" id="Inq_Email" required>
             <label for="Question">What are your questions?</label>
-            <textarea name="Question" cols="20" rows="10"></textarea>
+            <textarea id="Question" cols="20" rows="10" required></textarea>
             <input type="submit">
         </form>
     </section>
-    
+
 </div>
 <footer>©Allyson Vue</footer>
 </body>
